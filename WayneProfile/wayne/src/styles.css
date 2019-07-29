@@ -1,0 +1,151 @@
+font-family: 'Roboto', sans-serif;
+*{
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin:auto;
+    overflow:hidden;
+    height: 80%;
+}
+
+/* header */
+
+header{
+    background: whitesmoke;
+    padding-top: 30px;
+    min-height: 70px;
+    font-size: 15pt;
+    width: 100%;
+}
+header a{
+    color: rgb(60, 63, 80);
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 15pt;
+    
+  }
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+  
+header li:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .6s ease, background-color .6s ease;
+  }
+header li:hover:after {
+      width: 100%;
+      background: rgb(60, 63, 80);
+  }
+
+
+header #branding{
+    float:left;
+}
+  
+header #branding h1{
+    margin:0;
+}
+/* header a:hover{
+    display: inline-block;
+    padding: 3pt 4pt;
+    text-align: center;
+    transition: all 0.6s;
+    rotate: 90grad;
+  } */
+
+header nav{
+    float:right;
+    margin-top:10px;
+  }
+
+header .hightlight, header .current a{
+    color: magenta;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-bottom: 20pt;
+}
+
+header h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.button1{
+    font-size: 24pt;
+    display: inline-block;
+    border: 2pt solid rgb(60, 63, 80);
+    padding: 3pt 4pt;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.2s;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(60, 63, 80);
+    background-color: transparent;
+}
+
+.button1 .hover{
+    color: rgb(60, 63, 80);
+}
+
+
+showcase{
+    min-height:400px;
+    background:url('https://wallpapercave.com/wp/wp2763910.gif') no-repeat 0 -1px;
+    background-size: cover;
+    text-align:center;
+    color:#ffffff;
+    background-position: center;
+    height: 80vh;
+  }
+  
+  showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+    
+  }
+
+  .story{
+      height: 80vh;
+
+  }
+
+.base{
+    font-size: 24pt;
+    display: inline-block;
+    border: 2pt solid rgb(60, 63, 80);
+    padding: 3pt 4pt;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(60, 63, 80);
+    background-color: transparent;
+    height: 10%;
+
+}
+
+header #branding,
+header nav,
+header nav li,
+header li:after,
+header li:hover:after, 
+article#main-col,
+aside#sidebar,
+{
+  float:none;
+  text-align:center;
+  width:100%;
+}
+
+header{
+  padding-bottom:20px;
+}

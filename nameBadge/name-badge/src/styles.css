@@ -1,0 +1,13 @@
+.navbar-container{
+    background: purple;
+    height: 40pt;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30pt;
+    font-family: Helvetica, sans-serif;
+}
+
+.box fname{
+    float: left;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    background: pink;
+    justify-content: space-around;
+    height: 40pt;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    background: purple;
+    justify-content: space-around;
+    height: 40pt;
+    align-self: center;
+}
+
+.main-container{
+    background: blue;
+    height: 90vh;
+
+}

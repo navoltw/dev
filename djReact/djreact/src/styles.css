@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background: slategray;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.square-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    height: 50vh;
+    background: black;
+
+}
+button{
+    width: 25%;
+    height: 40pt;
+    border: solid 3pt magenta;
+}
+
+.box{
+    background: white;
+    border: solid 2pt forestgreen;
+}

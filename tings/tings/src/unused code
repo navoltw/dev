@@ -1,0 +1,79 @@
+navbar
+
+{/* <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Tings</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a Link='/Home'>Home</a></li>
+            <li><a Link to='/Tings'>Tings</a></li>
+            <li><a Link to='/About'>About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header> */}
+
+    //  <header className='header'>
+    //         <div id='branding'></div>
+    //         <h1><span class='highlight' >Tings</span></h1>
+    //         <nav>
+    //             <ul>
+    //             <li><Link to='/Home'>Home</Link></li>
+    //             <li><Link to='/Tings' class='current'>Tings</Link></li>
+    //             <li><Link to='/About'>About</Link></li>
+    //             </ul>
+    //         </nav>
+    //     </header> 
+
+
+
+
+    Tings
+
+   import React, { Component } from 'react';
+ import axios from 'axios'
+import React from 'react';
+
+import {withActivities} from './ServiceProvider'
+
+// class Tings extends Component {
+//     constructor() {
+//         super();
+//         this.state = { 
+//             activities:[]
+//          }
+//     }
+
+    // componentDidMount(){
+    //    this.getActivities()
+    // }
+
+    // getActivities = () => {
+    //     axios.get('https://vschool-cors.herokuapp.com?url=https://www.boredapi.com/api/activity')
+    //     .then(response => {
+    //         this.setState({
+    //             activities: response.data.results
+    //         })
+    //     })
+    //     .catch(err => console.log(err))
+    // }
+
+//     render() { 
+        
+//         return ( 
+//             <>
+//                 <Navbar />
+//                 <div>
+//                     { this.state.activities.map(activities =>
+//                         <div>
+//                             <h1>{activities.name}</h1>
+//                         </div>
+//                     )}
+//                 </div>
+//                 <Footer />
+//             </>
+//          );
+//     }
+// }
